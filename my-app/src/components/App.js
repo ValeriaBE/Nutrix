@@ -1,10 +1,10 @@
 import React from 'react';
-import '../css/App.css';
+import '../styles/App.css';
 import Routes from './Router'
 
 const App = () => {
   return (
-      <div className="container-fluid d-flex col-12">
+      <div className="">
         <Routes />
       </div>
   )
